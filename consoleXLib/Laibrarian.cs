@@ -1,47 +1,52 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace consoleXLib
 {
     public class Laibrarian
     {
+        // Properties //
         public string UserName { get; set; }
-        public int Laibrarianid { get; set; }
+        public int LaibrarianId { get; set; }
         public int Roled { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
         public string Mobile { get; set; }
-        public Laibrarian(string UserName, int ID, int Roled, string Password, string Emaile, string Mobile)
+
+        // Constructor
+        public Laibrarian(string userName, int laibrarianId, int roled, string password, string email, string mobile)
         {
-            this.UserName = UserName;
-            this.Laibrarianid = Laibrarianid;
-            this.Roled = Roled;
-            this.Password = Password;
-            this.Email = Emaile;
-            this.Mobile = Mobile;
+            UserName = userName;
+            LaibrarianId = laibrarianId;
+            Roled = roled;
+            Password = password;
+            Email = email;
+            Mobile = mobile;
         }
+
+        // Methods
         public void Login()
         {
-            /////////test  
-        }
-        public void AddBook( )
+
+        }
+
+        public void AddBook()
         {
-            ///////////C#
-        }
+            
+        }
+
         public void DeleteBook()
         {
-            ////////C++
-        }
+            
+        }
+
         public void UpdateBook()
         {
-            /////////Java
-        }
+            
+        }
+
         public void FindBook()
         {
-            /////
-        }
+            
+        }
     }
 }

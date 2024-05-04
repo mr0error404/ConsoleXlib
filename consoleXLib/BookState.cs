@@ -4,7 +4,7 @@ namespace consoleXLib
 {
     public class BookState
     {
-        // Properties
+        // Properties // //
         public int StatusId { get; set; }
         public string StatusName { get; set; }
         public DateTime CreateDate { get; set; }
