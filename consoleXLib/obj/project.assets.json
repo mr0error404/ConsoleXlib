@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/consoleXLIBR/consoleXLib/consoleXLib/consoleXLib.csproj",
+      "projectUniqueName": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/test/ConsoleXlib/consoleXLib/consoleXLib.csproj",
       "projectName": "consoleXLib",
-      "projectPath": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/consoleXLIBR/consoleXLib/consoleXLib/consoleXLib.csproj",
+      "projectPath": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/test/ConsoleXlib/consoleXLib/consoleXLib.csproj",
       "packagesPath": "/Users/macbookpro/.nuget/packages/",
-      "outputPath": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/consoleXLIBR/consoleXLib/consoleXLib/obj/",
+      "outputPath": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/test/ConsoleXlib/consoleXLib/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbookpro/.nuget/NuGet/NuGet.Config"
