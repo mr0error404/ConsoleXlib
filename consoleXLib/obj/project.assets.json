@@ -2885,24 +2885,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/macbookpro/.nuget/packages/": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/test/ConsoleXlib/consoleXLib/consoleXLib.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\ConsoleXlib\\two\\consoleXLib\\consoleXLib.csproj",
       "projectName": "consoleXLib",
-      "projectPath": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/test/ConsoleXlib/consoleXLib/consoleXLib.csproj",
-      "packagesPath": "/Users/macbookpro/.nuget/packages/",
-      "outputPath": "/Users/macbookpro/Downloads/JADARA/JADARA_Sim_2_2023_2024/تطوير البرمجيات و توثيقها /project/test/ConsoleXlib/consoleXLib/obj/",
+      "projectPath": "C:\\Users\\User\\source\\repos\\ConsoleXlib\\two\\consoleXLib\\consoleXLib.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\ConsoleXlib\\two\\consoleXLib\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/macbookpro/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2952,7 +2959,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
