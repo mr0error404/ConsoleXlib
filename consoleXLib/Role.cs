@@ -10,7 +10,7 @@ namespace consoleXLib
         [Key]
         public int RoleId { get; set; }
 
-        [Required]
+        [Required] 
         [StringLength(60)]
         public string SubcategoryName { get; set; }
 

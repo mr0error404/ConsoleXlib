@@ -1,12 +1,19 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace consoleXLib
 {
     public class BookState
     {
-        // Properties // //
+        // Properties
+        [Key]
         public int StatusId { get; set; }
+
+        [Required]
+        [StringLength(50)]
         public string StatusName { get; set; }
+
+        [Required]
         public DateTime CreateDate { get; set; }
 
         // Constructor
@@ -20,13 +27,12 @@ namespace consoleXLib
         // Methods
         public void CreateStatus()
         {
-            // Implement your logic for creating status here
+
         }
 
         public void UpdateStatus()
         {
-            // Implement your logic for updating status here
+
         }
     }
 }
-
