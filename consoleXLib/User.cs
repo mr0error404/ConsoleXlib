@@ -32,7 +32,7 @@ public class User
     [StringLength(20, MinimumLength = 6)]
     public string Password { get; set; }
 
-    public List<string> BorrowedBooks { get; set; }
+    public List<Book> BorrowedBooks { get; set; }
 
     public int NumberOfBorrowedBooks { get; set; }
 
@@ -41,7 +41,7 @@ public class User
 
     public virtual Role Role { get; set; }
 
-    public User(int userId, string name, string username, string userEmail, string phone, int roleId, string password, List<string> borrowedBooks, int numberOfBorrowedBooks, DateTime lastActivityDate)
+    public User(int userId, string name, string username, string userEmail, string phone, int roleId, string password, int numberOfBorrowedBooks, DateTime lastActivityDate)
     {
         UserId = userId;
         Name = name;
@@ -50,7 +50,6 @@ public class User
         Phone = phone;
         RoleId = roleId;
         Password = password;
-        BorrowedBooks = borrowedBooks;
         NumberOfBorrowedBooks = numberOfBorrowedBooks;
         LastActivityDate = lastActivityDate;
     }
@@ -65,10 +64,10 @@ public class User
 
     public void ReserveBook() { }
 
-    public List<string> GetBorrowedBooks()
-    {
-        return BorrowedBooks;
-    }
+    //public List<Book> GetBorrowedBooks()
+    //{
+    //    //return BorrowedBooks;
+    //}
 
     public int GetNumberOfBorrowedBooks()
     {

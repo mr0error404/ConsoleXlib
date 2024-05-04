@@ -6,7 +6,7 @@ namespace consoleXLib
     public class ApplicationBdContext : DbContext
 	{
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-           optionsBuilder.UseSqlServer("Data Source=DESKTOP-LDMN0NB\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True;Trust Server Certificate=True");
+           optionsBuilder.UseSqlServer("Data Source=YNS-ALJALAM\\SQLEXPRESS;Integrated Security=True");
 
         public DbSet<Book> Books { get; set; }
         public DbSet<BookState> BookStates { get; set; }
