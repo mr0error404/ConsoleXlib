@@ -12,19 +12,19 @@ namespace consoleXLib
 
         [Required]
         [StringLength(100)]
-        public string Title { get; set; }
+        public string ?Title { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Author { get; set; }
+        public string ?Author { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Publisher { get; set; }
+        public string ?Publisher { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Type { get; set; }
+        public string ?Type { get; set; }
 
         [Required]
         public bool Availability { get; set; }
@@ -33,22 +33,22 @@ namespace consoleXLib
         [Range(1, int.MaxValue)]
         public int NumberOfCopies { get; set; }
 
-        public string Description { get; set; }
+        public string ?Description { get; set; }
 
         // Foreign Key
         [ForeignKey("MainCategory")]
         public int MainCategoryId { get; set; }
-        public MainCategory MainCategory { get; set; }
+        public MainCategory ?MainCategory { get; set; }
 
         // Foreign Key
         [ForeignKey("SubCategory")]
         public int SubCategoryId { get; set; }
-        public MainCategory SubCategory { get; set; }
+        public MainCategory ?SubCategory { get; set; }
 
         // Foreign Key
         [ForeignKey("BookState")]
         public int BookStateId { get; set; }
-        public BookState BookState { get; set; }
+        public BookState ?BookState { get; set; }
 
         // Methods
         public void AddBook()

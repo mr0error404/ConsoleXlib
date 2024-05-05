@@ -30,7 +30,7 @@ namespace consoleXLib
         public string Mobile { get; set; }
 
         // Navigation property
-        public virtual Role Role { get; set; }
+        public virtual Role ?Role { get; set; }
 
         // Constructor
         public Laibrarian(string userName, int laibrarianId, int roleId, string password, string email, string mobile)

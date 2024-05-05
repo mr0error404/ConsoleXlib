@@ -11,12 +11,12 @@ namespace consoleXLib
         // Foreign Key for User
         [ForeignKey("User")]
         public int UserId { get; set; }
-        public virtual User User { get; set; }
+        public virtual User ?User { get; set; }
 
         // Foreign Key for Book
         [ForeignKey("Book")]
         public int BookId { get; set; }
-        public virtual Book Book { get; set; }
+        public virtual Book ?Book { get; set; }
 
         public DateTime ReservedDate { get; set; }
         public DateTime ReturnDate { get; set; }

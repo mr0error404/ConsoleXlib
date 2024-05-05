@@ -12,7 +12,7 @@ namespace consoleXLib
 
         [Required]
         [StringLength(50)]
-        public string CategoryName { get; set; }
+        public string ?CategoryName { get; set; }
 
         // Methods
         public void AddMainCategory()

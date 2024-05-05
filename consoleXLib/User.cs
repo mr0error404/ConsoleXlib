@@ -32,14 +32,14 @@ public class User
     [StringLength(20, MinimumLength = 6)]
     public string Password { get; set; }
 
-    public List<Book> BorrowedBooks { get; set; }
+    public List<Book> ?BorrowedBooks { get; set; }
 
     public int NumberOfBorrowedBooks { get; set; }
 
     [Required]
     public DateTime LastActivityDate { get; set; }
 
-    public virtual Role Role { get; set; }
+    public virtual Role ?Role { get; set; }
 
     public User(int userId, string name, string username, string userEmail, string phone, int roleId, string password, int numberOfBorrowedBooks, DateTime lastActivityDate)
     {

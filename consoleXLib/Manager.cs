@@ -15,7 +15,7 @@ namespace consoleXLib
 
         [ForeignKey("Role")] 
         public int RoleId { get; set; }
-        public Role Role { get; set; } 
+        public Role ?Role { get; set; } 
 
         [Required]
         [MinLength(6)]
